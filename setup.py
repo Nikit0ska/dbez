@@ -1,12 +1,9 @@
 #!/usr/bin/env python
 
-from io import open
-from setuptools import setup
 
+from setuptools import setup, find_packages
 
-
-version = '0.0.3'
-
+version = '0.0.4'
 
 long_description = "Some long description"
 
@@ -29,7 +26,10 @@ setup(
 
     license='MIT License',
 
-    packages=['dbez'],
+    packages=find_packages("dbez"),
+
+    package_dir={"": "dbez"},
+
     install_requires=['pyodbc', 'xlrd3'],
 
     classifiers=[
