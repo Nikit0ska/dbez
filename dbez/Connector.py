@@ -10,7 +10,7 @@ class Connector:
                 f';PWD={pwd};')
         except pyodbc.Error as ex:
             sqlstate = ex.args[1]
-            raise projectPractice.errors.OdbcConnectionError(sqlstate) from None
+            raise dbez.errors.OdbcConnectionError(sqlstate) from None
         self.cursor = self.connection.cursor()
         self.connection.autocommit = autocommit
         self.is_connected = True
