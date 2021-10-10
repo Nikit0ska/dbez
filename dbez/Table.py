@@ -1,8 +1,8 @@
 from pyodbc import *
 
-from projectPractice.sql_types import *
-from projectPractice.db_funcs import *
-from projectPractice.errors import *
+from dbez.sql_types import *
+from dbez.db_funcs import *
+from dbez.errors import *
 # from projectPractice.errors.decorators import decorator_function_with_arguments
 
 

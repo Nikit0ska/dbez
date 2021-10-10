@@ -1,5 +1,5 @@
 import pyodbc
-import projectPractice.errors
+import dbez.errors
 
 
 class Connector:

@@ -5,7 +5,7 @@ from setuptools import setup
 
 
 
-version = '0.0.1'
+version = '0.0.2'
 
 
 long_description = "Some long description"

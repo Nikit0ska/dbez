@@ -1,7 +1,7 @@
 from pyodbc import Cursor
 
-from projectPractice.ConnThread import ConnThread
-from projectPractice.Table import Table
+from dbez.ConnThread import ConnThread
+from dbez.Table import Table
 
 DATA_TYPES: list
 DB_NAME: str

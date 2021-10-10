@@ -1,4 +1,4 @@
-from projectPractice.ConnThread import get_cursor
+from dbez.ConnThread import get_cursor
 
 SQL_TEXT = 2000
 
