@@ -3,9 +3,9 @@
 import xlrd3
 from pyodbc import SQL_DBMS_NAME
 # from projectPractice.sql_types import SQL_TEXT
-from dbez.errors import *
-from dbez.ConnThread import ConnThread, get_cursor, __get_conn_thread
-from dbez.Connector import Connector
+from .errors import *
+from .ConnThread import ConnThread, get_cursor, __get_conn_thread
+from .Connector import Connector
 
 __all__ = ['db_connect', 'db_execute_query', 'db_disconnect', 'import_xl_db', 'import_csv_db', 'get_db_name', 'get_data_types']
 

@@ -1,7 +1,7 @@
 # from projectPractice.Table import find_type_by_sqltype
 # from projectPractice.errors import OdbcError, Error
-from dbez.sql_types import SQL_CUSTOM_TYPES, find_type_by_sqltype
-from dbez.errors.errors import *
+from ..sql_types import SQL_CUSTOM_TYPES, find_type_by_sqltype
+from .errors import *
 
 
 def err_decor(db_func):

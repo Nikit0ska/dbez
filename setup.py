@@ -3,7 +3,7 @@
 
 from setuptools import setup, find_packages
 
-version = '0.0.4'
+version = '0.0.5'
 
 long_description = "Some long description"
 
@@ -26,9 +26,9 @@ setup(
 
     license='MIT License',
 
-    packages=find_packages("dbez"),
+    packages=find_packages("src"),
 
-    package_dir={"": "dbez"},
+    package_dir={"": "src"},
 
     install_requires=['pyodbc', 'xlrd3'],
 

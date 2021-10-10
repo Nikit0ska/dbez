@@ -1,5 +1,5 @@
 import threading
-from dbez.errors import OdbcConnectionError
+from .errors import OdbcConnectionError
 
 
 class ConnThread(threading.Thread):
